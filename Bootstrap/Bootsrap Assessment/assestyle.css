@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #dde0d7; 
+}
+.loginf{
+    margin: 100px ;
+    background-color: aquamarine;
+}
+
+.loginf .backpage{
+    background-color: #dde0d7;
+    display: grid;
+    place-content: center;
+    padding-top: 50px;
+    box-shadow: 2px -2px 20px white; 
+    border-radius: 10px;
+  
+}
+
+.loginf .fff1 input{
+    border: none;
+    height: 30px !important;
+    width: 270px !important;
+    background-color: #dde0d7;
+    box-shadow:inset 0px 0px 8px grey;
+
+}
+.icon2{
+    background-color:#d4d6d0 ;
+    height: 90px;
+    width: 90px;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px rgb(128, 128, 128);
+}
+
+.icon1{
+    background-color:#dde0d7 ;
+    height: 80px;   
+    width: 80px;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px grey;
+    /* border: 1px solid grey; */
+    
+}
+.backcol{
+    background-color: #60c0e6;
+    height: 55px;
+    width: 55px;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    
+}
+.centertext{
+    display: grid;
+    justify-content: center;
+}
+.btn1 button{
+    height: 50px;
+    width: 258px;
+    background-color: #60c0e6;
+    color: white;
+    font-size: 20px;
+    box-shadow: 0px 0px 8px grey;
+}
+.btn1 button:hover{
+    background-color: #7bbcd5;
+    color: white;
+}
+
+
+
